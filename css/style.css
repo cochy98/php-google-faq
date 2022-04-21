@@ -12,7 +12,67 @@ body {
 /* Contenitore del main */
 .container {
   width: 60%;
-  margin: 0 auto;
+  margin: 100px auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #bdb0b0;
+  padding: 0 1rem;
+}
+
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header-top .header-logo {
+  display: inline-block;
+  width: 90px;
+  vertical-align: middle;
+}
+
+.header-top span {
+  color: #5f6368;
+  font-size: 23px;
+  padding-left: .3rem;
+}
+
+.top-right div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  line-height: 35px;
+  background-color: #c2185b;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.header-bottom nav ul {
+  display: flex;
+}
+
+.header-bottom nav ul li {
+  list-style-type: none;
+  padding: 0 2.1rem .5rem 0;
+}
+
+.header-bottom nav ul li a {
+  color: #5f6368;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+.header-bottom nav ul li a.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
 }
 
 h2.faq-question {

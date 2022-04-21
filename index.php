@@ -95,7 +95,26 @@ $faqs = [
 </head>
 <body>
   <header>
-    header
+    <div class="header-top">
+      <div class="top-left">
+        <img src="https://www.level43.net/wp-content/uploads/2019/10/google-logo-1.png" alt="Google logo" class="header-logo">
+        <span>Privacy e termini</span>
+      </div>
+      <div class="top-right">
+        <div>C</div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <nav>
+        <ul>
+          <li><a href="#">Introduzione</a></li>
+          <li><a href="#">Norme sulla privacy</a></li>
+          <li><a href="#">Termini di servizio</a></li>
+          <li><a href="#">Tecnologie</a></li>
+          <li><a href="#" class="active">Domande frequenti</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <div class="container">
