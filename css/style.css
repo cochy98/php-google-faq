@@ -1,0 +1,36 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Contenitore del main */
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2.faq-question {
+  color: #3c4043;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 64px 0 0 0;
+}
+
+p.faq-answer {
+  line-height: 24px;
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p.faq-answer>a {
+  color: #3367d6;
+  cursor: pointer;
+}
