@@ -23,14 +23,32 @@ h2.faq-question {
   padding: 64px 0 0 0;
 }
 
-p.faq-answer {
+div.faq-answer,
+div.faq-answer li {
   line-height: 24px;
   padding-top: 20px;
   font-size: 14px;
   font-weight: 400;
 }
 
-p.faq-answer>a {
+div.faq-answer ol {
+  padding-left: 16px;
+}
+
+div.faq-answer ol li {
+  padding-left: 15px;
+}
+
+div.faq-answer>a {
   color: #3367d6;
   cursor: pointer;
+}
+
+h3.span {
+  color: #3c4043;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  padding: 52px 0 0 0;
 }
